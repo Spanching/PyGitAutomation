@@ -6,7 +6,7 @@
 pip install -r requirements.txt
 ```
 
-2. Set environment variables:  
+2. Create environment file:  
 
 ```shell
 cp .env_sample .env
