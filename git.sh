@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export GIT_PY_PATH="C:/Users/AndreasK/Projects/PyGitAutomation"
+export GIT_PY_PATH="[path to your repository]"
 
 # load variables from .env
 source $GIT_PY_PATH/.env
