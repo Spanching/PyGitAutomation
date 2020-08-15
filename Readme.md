@@ -14,7 +14,7 @@ cp .env_sample .env
 
 3. Set your variables:  
 
-   * GIT_AUTH_TOKEN - your personal authentication for github api [learn more here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+   * GIT_AUTH_TOKEN - your personal access token for github [learn more here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
    * GIT_PY_PATH - your path to this repository (no trailing backslash)
    * GIT_URL - the url to your github account (https://github.com/username)
 
