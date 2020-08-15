@@ -1,11 +1,13 @@
 #!/bin/bash
 
+export GIT_PY_PATH="path to your repository"
+
+# load variables from .env
+source $GIT_PY_PATH/.env
+
 # make and go to directory with passed name
 mkdir $1
 cd $1
-
-# load variables from .env
-export $(egrep '^#' .env)
 
 # init git repository
 git init

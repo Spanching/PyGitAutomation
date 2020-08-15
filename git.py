@@ -10,6 +10,11 @@ load_dotenv()
 
 # Load GitHub Token from environment
 GIT_AUTH_TOKEN = os.getenv("GIT_AUTH_TOKEN")
+print("#################################################\n")
+print("#################################################\n")
+print(GIT_AUTH_TOKEN)
+print("#################################################\n")
+print("#################################################\n")
 
 g = Github(GIT_AUTH_TOKEN)
 

@@ -15,13 +15,13 @@ cp .env_sample .env
 3. Set your variables:  
 
    * GIT_AUTH_TOKEN - your personal access token for github [learn more here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
-   * GIT_PY_PATH - your path to this repository (no trailing backslash)
    * GIT_URL - the url to your github account (https://github.com/username)
+   * GIT_PY_PATH - your path to this repository (no trailing backslash, set this inside your git.py)
 
 4. Add command to .bash_profile:  
 
 ```shell
-alias creategit='. C:/Users/AndreasK/Projects/gitAutomation/git.sh'
+alias creategit='. [path to your repository]/git.sh'
 ```
 
 ---
