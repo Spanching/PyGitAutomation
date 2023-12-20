@@ -18,10 +18,10 @@ cp .env_sample .env
    * GIT_URL - the url to your github account (https://github.com/username)
    * GIT_PY_PATH - your path to this repository (no trailing backslash, set this inside your git.py)
 
-4. Add command to .bash_profile:  
+4. Add command to .bash_profile if desired:
 
 ```shell
-alias creategit='. [path to your repository]/git.sh'
+alias creategit='[path to your repository]/git.sh'
 ```
 
 ---
